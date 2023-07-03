@@ -1,0 +1,114 @@
+.login{
+    backdrop-filter: blur(2px);
+    margin: auto;
+    margin-top: 100px;
+    width: 700px;
+    height: 700px;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.538);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.297);
+}
+body{
+    margin: 0;
+    background-image: url("https://assets.hongkiat.com/uploads/minimalist-dekstop-wallpapers/4k/original/12.jpg?3");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+h1{
+    padding-top: 50px;
+
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Varela', sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: aliceblue;
+}
+input{
+    border: 0;
+    justify-content: center;
+    margin: 10px;
+    height: 30px;
+    width: 400px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+    background-color: rgba(240, 248, 255, 0.779);
+}
+input:focus{
+    transition: all 1s;
+    background-color: rgba(240, 248, 255, 0.375);
+    backdrop-filter: blur(20px);
+    outline: none;
+}
+.enviar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fotologin {
+    background-image: url("https://media2.giphy.com/media/ekdrgKqgUtFejfG5mB/giphy.gif?cid=ecf05e47905dyzjc94o7w25ml8mn8d45p3tuv26pj0wvj6ss&ep=v1_stickers_search&rid=giphy.gif&ct=s");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+}
+.fotologin:hover{
+    background-image: url("https://media1.giphy.com/media/LqFPq6evkFw6BqA8Y6/giphy.gif?cid=ecf05e47905dyzjc94o7w25ml8mn8d45p3tuv26pj0wvj6ss&ep=v1_stickers_search&rid=giphy.gif&ct=s");
+    transition: all 1s;
+}
+.enviara{
+    background-color: aliceblue;
+}
+h3{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+}
+.header{
+    display: flex;
+    top: 0px;
+    width: 100%;
+    position: absolute;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.197);
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.268);
+}
+.headeroff{
+    display: none;
+}
+.scroll{
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+}
+.bo{
+    top: 0px;
+    margin: 0 auto;
+    width: 70px;
+    height: 50px;
+    background-size: cover;
+    background-image: url("https://media0.giphy.com/media/UrzWDQ3VTiDU84R5dx/giphy.gif?cid=ecf05e47gaumqj342u2idazorly58q7gwo4e9x4ujf7u95uf&ep=v1_stickers_search&rid=giphy.gif&ct=s");
+}
+a{
+    margin: 0 auto;
+    
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Varela', sans-serif;
+    text-decoration: none;
+}
+.nombreyapellido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

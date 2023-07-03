@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lexend+Peta:wght@300&family=Varela&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Varela&display=swap" rel="stylesheet">
+    <title>Login! Gonzalo Cassetta</title>
+</head>
+<body>
+    <header>
+        <div class="scroll">
+            <div class="bo" id="headeron"></div>
+        </div>
+        <div id="cambiar"class="headeroff">
+            <a href="index.html" class="l">Inicio</a>
+            <a href="index.html" class="l">Login</a>
+            <a href="indexregister.html" class="l">Register</a>
+        </div>
+    </header>
+    <div class="login">
+        <div class="letras">
+        <h1>Login!</h1>
+        <h2>Inicia sesión para continuar</h2> </div>
+        <div class="enviar">
+        <input type="text" placeholder="Nombre"> <br>
+        <input type="text" placeholder="Email" name=""> <br>
+        <input type="password" placeholder="Contraseña"><br>
+        <input class="enviara"type="submit" value="Enviar">
+        <div class="fotologin"></div>
+    </div>
+    <h3>© Todos los derechos reservados </h3>
+    </div>
+</body>
+<script>
+    var header = document.getElementById("headeron");
+var cambiar = document.getElementById("cambiar");
+header.addEventListener("click", boton);
+function boton(){
+    var on=1;
+    if(on==1){
+        on=0;
+        cambiar.className = "header";
+        header.className = "headeroff";
+    }
+}
+</script>
+</html>
